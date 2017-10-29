@@ -14,8 +14,11 @@ body{
 header{
     background: #2c3e50;
     line-height: 50%;
-    padding: 3% 250px 3% 200px;
-
+    padding: 3% 100% 3% 10%;
+    position: fixed;
+    z-index: 1000;
+    width: 80%;
+    top: 0;
 }
 
 .text-uppercase {
@@ -23,15 +26,16 @@ header{
     padding: 10px;
 }
 
-nav{
+header nav{
     float: right;
 }
 
-span{
+header span{
     font-size: 35px;
+    position: relative;
 }
 
-a{
+header nav ul li a{
     text-decoration: none;
 }
 
@@ -46,11 +50,12 @@ span, a {
 .firts-section{
     background: #18bc9c;
     text-align: center;
-    padding: 3%;
+    padding: 5% 10% 5% 10%;
+    margin-top: 5%;
 }
 
 figure{
-    padding: 1%%;
+    padding: 1.5%;
 }
 
 h2{
@@ -65,4 +70,23 @@ h3{
 
 h2, h3{
     color: white;
+}
+
+/* aplicando estilos seccion 2 */
+.second-section{
+    background: white;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+}
+
+.second-section h2 {
+    color: #2c3e50;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.images{
+    width: 25%;
+    padding: 1%;
 }
