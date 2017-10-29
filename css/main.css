@@ -42,3 +42,27 @@ span, a {
 }
 
 /* aplicando estilos seccion 1 */
+
+.firts-section{
+    background: #18bc9c;
+    text-align: center;
+    padding: 3%;
+}
+
+figure{
+    padding: 1%%;
+}
+
+h2{
+    padding: 2%;
+    font-size: 4.75em;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+h2, h3{
+    color: white;
+}
