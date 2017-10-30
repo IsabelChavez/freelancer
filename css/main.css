@@ -127,9 +127,45 @@ h2, h3{
     font-size: 19.5px;
     font-weight: lighter;
 }
+/* aplicando estilos a la cuarta seccion */
+.for-section{
+    text-align: center;
+}
 
+.for-section h2 {
+    text-transform: uppercase;
+    padding: 3%;
+    font-size: 50px;
+    color: #2c3e50;
+}
 
+.for-section form input{
+    line-height: 30px;
+    font-size: 25px;
+    width: 40%;
+    margin: 0.5%;
+    padding: 2% 0 2% 0;
+    -moz-user-focus: none;
+}
 
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgba(164, 142, 150, 0.5);
+}
 
+#message{
+    padding-bottom: 10%;
+}
 
-
+.for-section button {
+    border-radius: 10px;
+    padding: 1%;
+    background: #18bc9c;
+    border-color: #18bc9c;
+    border-style: solid;
+    color: white;
+    font-size: 19.5px;
+    font-weight: bold;
+    position: relative;
+    right: 17.5%;
+}
