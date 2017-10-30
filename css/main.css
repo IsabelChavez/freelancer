@@ -54,16 +54,16 @@ span, a {
     margin-top: 5%;
 }
 
-figure{
+.firts-section figure {
     padding: 1.5%;
 }
 
-h2{
+.firts-section h2 {
     padding: 2%;
     font-size: 4.75em;
 }
 
-h3{
+.firts-section h3 {
     font-size: 25px;
     font-weight: lighter;
 }
@@ -90,3 +90,46 @@ h2, h3{
     width: 25%;
     padding: 1%;
 }
+
+/* Creando estilos seccion 3 */
+.third-section{
+    background: #18bc9c;
+    text-align: center;
+    color: white;
+    text-align: center;
+    padding: 5%;
+}
+
+.third-section h2{
+    text-transform: uppercase;
+    padding: 3%;
+    font-size: 50px;
+}
+
+.content-box{
+    column-count: 2;
+    width: 45%;
+    margin: auto;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 19.3px;
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.third-section button{
+    border-radius: 10px;
+    padding: 1%;
+    background: #18bc9c;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    font-size: 19.5px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
